@@ -1,8 +1,7 @@
 ﻿using System;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Repro
+namespace DataAccess
 {
     public class TestContext : DbContext
     {
